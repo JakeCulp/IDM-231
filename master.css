@@ -1,4 +1,53 @@
 html {
 	font-family: arial;
 	font-size: 1rem;
+	background-color: #132C3D;
+	color:white;
 }
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+	color: white;
+	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 2px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#submit {
+	width: 16rem;
+	font-size: 1.5rem;
+}
+
+input {
+	width: 16rem;
+	font-size: 1.5rem;
+	background-color: #132C3D; 
+	color:white;
+	border-color: white;
+	border-radius: .25rem;
+	font-family: Georgia;
+}
+
+#displayMsg {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#zodiac_buttons {
+	display: flex;
+	flex-direction: column;
+
+}
+
+button {
+
+}
+

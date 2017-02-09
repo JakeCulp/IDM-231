@@ -2,10 +2,12 @@
 <head>
 	<title>My Final Project Title</title>
 	<link rel="stylesheet" type="text/css" href="./master.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 </head>
 <body>
 	<div id="wrapper">
 		<h1>Zodiac Teller</h1>
+
 		<form onsubmit="return calZodiac();">
 			<p>
 				<input id="fname" name="fname" type="text" placeholder="First Name" required>
@@ -17,12 +19,27 @@
 				<input id="bDay" name="bDay" type="date" required>
 			</p>
 			<p>
-				<input type="submit" >
+				<input type="submit" id="submit">
 			</p>
 		</form>
 		<div id="displayMsg">
 
 		</div>
+		<div id="zodiac_buttons">
+			<button type="button" id="Capicorn" placeholder="Capicorn">Capicorn</button>
+			<button type="button" id="Aquarius" placeholder="Aquarius">Aquarius</button>
+			<button type="button" id="Pisces" placeholder="Pisces">Pisces</button>
+			<button type="button" id="Aries" placeholder="Aries">Aries</button>
+			<button type="button" id="Taurus" placeholder="Taurus">Taurus</button>
+			<button type="button" id="Gemini" placeholder="Gemini">Gemini</button>
+			<button type="button" id="Cancer" placeholder="Cancer">Cancer</button>
+			<button type="button" id="Leo" placeholder="Leo">Leo</button>
+			<button type="button" id="Virgo" placeholder="Virgo">Virgo</button>
+			<button type="button" id="Libra" placeholder="Libra">Libra</button>
+			<button type="button" id="Scorpio" placeholder="Scorpio">Scorpio</button>
+			<button type="button" id="Sagittarius" placeholder="Sagittarius">Sagittarius</button>
+		</div>
+
 	</div>
 	<script src="./master.js"></script>
 </body>
