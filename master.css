@@ -8,16 +8,41 @@ html {
 h1 {
 	display: flex;
 	justify-content: center;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	color: white;
 	font-family: 'Abril Fatface', cursive;
 	letter-spacing: 2px;
 }
 
+h3 {
+	display: flex;
+	justify-content: center;
+	font-size: 1rem;
+	color: white;
+	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 2px;
+}
+.container {
+	display: flex;
+}
+
+.container > div {
+	width: 50%;
+	padding 10px;
+
+}
+.container > div:first-child {
+	margin-right: 20px;
+}
+
 form {
 	display: flex;
 	flex-direction: column;
-	text-align: center;
+	align-items: center;
+	justify-content: center;
+	align-self: flex-start;
+	max-width:  37.5rem;
+	width: 50%;
 }
 
 #submit {
@@ -28,26 +53,42 @@ form {
 input {
 	width: 16rem;
 	font-size: 1.5rem;
-	background-color: #132C3D; 
+	background-color: #839788; 
 	color:white;
 	border-color: white;
-	border-radius: .25rem;
-	font-family: Georgia;
+	font-family: 'Abril Fatface', cursive;;
 }
 
 #displayMsg {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
+	
 }
 
 #zodiac_buttons {
 	display: flex;
-	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+	align-content: space-between;
+	width:  50%;
 
 }
 
+::-webkit-input-placeholder {
+	color: white;
+}
+
 button {
+	width: 7rem;
+	height: 7rem;
+	font-size: 1.25rem;
+	text-align: center;
+	background-color: #839788;
+	border-style: none;
+	color: white;
+	font-family: 'Abril Fatface', cursive;
+	margin: .25rem;
+	cursor: pointer;
+
 
 }
 
