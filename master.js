@@ -45,7 +45,7 @@ function calZodiac() {
     document.getElementById("displayMsg").innerHTML = "Hey " + firstName + " " + lastName + " you are a " + "Sagittarius" + " and you are " + ageFinal + " years old.";
   	}
 
-
+  
 
 
 
