@@ -16,7 +16,7 @@ html {
 h1 {
 	display: flex;
 	justify-content: center;
-	font-size: 3rem;
+	font-size: 3.25rem;
 	color: white;
 	font-family: 'Bangers', cursive;
 	letter-spacing: 3px;
@@ -25,7 +25,7 @@ h1 {
 h2 {
 	display: flex;
 	justify-content: center;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	color: white;
 	font-family: 'Bangers', cursive;
 	letter-spacing: 2px;
@@ -34,9 +34,9 @@ h2 {
 h3 {
 	display: flex;
 	justify-content: center;
-	font-size: 1rem;
+	font-size: 0.88rem;
 	color: white;
-	font-family: 'Bangers', cursive;
+	font-family: 'Arimo', sans-serif;
 	letter-spacing: 2px;
 }
 .container {
@@ -84,9 +84,11 @@ input#submit {
 	display:flex;
 	justify-content: center;
 	margin: 10px;
-	font-family: 'Bangers', cursive;
+	font-family: 'Arimo', sans-serif;
 	font-size: 1.5rem;
 	letter-spacing: 2px;
+	align-items:flex-start;
+	flex-direction: column;
 
 }
 
@@ -94,6 +96,7 @@ input#submit {
 #displayMsg {
 	font-size: 1.25rem;
 }
+
 }
 #zodiac_buttons {
 	display: flex;
@@ -116,10 +119,10 @@ img {
 	width:  100%;
 }
 
-img:hover {
+/*img:hover {
 	width:7.5rem;
 	height:7.5rem;
-}
+}*/
 
 ::-webkit-input-placeholder {
 	color: white;
@@ -141,4 +144,26 @@ button {
 	justify-content: center;
 
 }
+
+#display {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+
+#displayMess {
+	display: flex;
+	font-size: 1rem;
+	text-align: center;
+}
+
+hr {
+	border-top: 1px solid #fff;
+	display: flex;
+	max-width: 62.5rem;
+}
+
 
