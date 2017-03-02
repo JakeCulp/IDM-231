@@ -54,7 +54,7 @@ function displayVir() {
 }
 
 function displayLib() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/row.svg'>Row</div><div id='displayMess'>You're exercise is the Bent Over Row! This exercises works the traps, lats, and upper back muscles.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/row.svg'>Row</div><div id='displayMess'>You're exercise is the Bent Over Row! This exercise works the traps, lats, and upper back muscles.</div>";
 }
 
 function displaySag() {
