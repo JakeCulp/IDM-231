@@ -18,51 +18,63 @@ document.getElementById("Scorpio").addEventListener("click", displaySco);
 
 
 function displayCap() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/dips.svg'>Dips</div><div id='displayMess'>You're exercise is Dips! They help with building up the chest and triceps muscles.</div>" ;
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/dips.gif'>Dips</div><div id='displayMess'>You're exercise is Dips! They help with building up the chest and triceps muscles.</div>" ;
+  document.getElementById('sound').play();
 }
 
 function displayAqu() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/bench.svg'>Bench</div><div id='displayMess'>You're exercise is the Bench Press! It's helps build up your chest and tricep muscles.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/benchpress.gif'>Bench</div><div id='displayMess'>You're exercise is the Bench Press! It's helps build up your chest and tricep muscles.</div>";
+  document.getElementById('sound').play();
 }
 
 function displayPis() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/crunch.svg'>Crunch</div><div id='displayMess'>You're exercise are Crunches! They target your abdominals and core muscles and get you that 6 pack!</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/crunch.gif'>Crunch</div><div id='displayMess'>You're exercise are Crunches! They target your abdominals and core muscles and get you that 6 pack!</div>";
+  document.getElementById('sound').play();
 }
 
 function displayAri() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/curls.svg'>Curls</div><div id='displayMess'>You're exercise are Curls! They help with developing the biceps and forearms.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/curl.gif'>Curls</div><div id='displayMess'>You're exercise are Curls! They help with developing the biceps and forearms.</div>";
+  document.getElementById('sound').play();
 }
 
 function displayTau() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/deadlift.svg'>Deadlift</div><div id='displayMess'>You're exercise is the Deadlift! This full body exercise works primarily the lower back, hamstrings, glutes, and traps.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/deadlift.gif'>Deadlift</div><div id='displayMess'>You're exercise is the Deadlift! This full body exercise works primarily the lower back, hamstrings, glutes, and traps.</div>";
+  document.getElementById('sound').play();
 }
 
 function displayGem() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/lunge.svg'>Lunge</div><div id='displayMess'>You're exercise are Lunges! They help develop the glutes, hamstrings, and quads. P.S. They feel like death!</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/lunge.gif'>Lunge</div><div id='displayMess'>You're exercise are Lunges! They help develop the glutes, hamstrings, and quads. P.S. They feel like death!</div>";
+  document.getElementById('screaming').play();
 }
 
 function displayCan() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/ohp.svg'>Overhead Press</div><div id='displayMess'>You're exercise is the Overhead Press! This exercise focuses on developing the shoulders and delts.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/ohp.gif'>Overhead Press</div><div id='displayMess'>You're exercise is the Overhead Press! This exercise focuses on developing the shoulders and delts.</div>";
+  document.getElementById('sound').play();
 }
 
 function displayLeo() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/Pullup.svg'>Pullup</div><div id='displayMess'>You're exercise are Pullups! They help work the lats, biceps, upper back, and forearms.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/Pullup.gif'>Pullup</div><div id='displayMess'>You're exercise are Pullups! They help work the lats, biceps, upper back, and forearms.</div>";
+  document.getElementById('sound').play();
 }
 
 function displayVir() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/Pushup.svg'>Pushup</div><div id='displayMess'>You're exercise are Pushups! They help strengthen the triceps and work the chest muscles.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/Pushup.gif'>Pushup</div><div id='displayMess'>You're exercise are Pushups! They help strengthen the triceps and work the chest muscles.</div>";
+  document.getElementById('sound').play();
 }
 
 function displayLib() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/row.svg'>Row</div><div id='displayMess'>You're exercise is the Bent Over Row! This exercise works the traps, lats, and upper back muscles.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/row.gif'>Row</div><div id='displayMess'>You're exercise is the Bent Over Row! This exercise works the traps, lats, and upper back muscles.</div>";
+  document.getElementById('sound').play();
 }
 
 function displaySag() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/skullcrusher.svg'>Skullcrusher</div><div id='displayMess'>You're exercise are Skullcrushers! They almost entirely target your triceps and help them grow tremendously!</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/skullcrusher.gif'>Skullcrusher</div><div id='displayMess'>You're exercise are Skullcrushers! They almost entirely target your triceps and help them grow tremendously!</div>";
+  document.getElementById('sound').play();
 }
 
 function displaySco() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Photos/squat.svg'>Squat</div><div id='displayMess'>You're exercise is Squats! They focus on developing the glutes, quads, and hamstrings.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/Squat.gif'>Squat</div><div id='displayMess'>You're exercise is Squats! They focus on developing the glutes, quads, and hamstrings.</div>";
+  document.getElementById('sound').play();
 }
 
 
