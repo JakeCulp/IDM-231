@@ -124,11 +124,6 @@ img {
 	width:  100%;
 }
 
-/*img:hover {
-	width:7.5rem;
-	height:7.5rem;
-}*/
-
 ::-webkit-input-placeholder {
 	color: #333;
 }
@@ -146,8 +141,14 @@ button {
 	justify-content: center;
 	flex: 1 0 16.6%;
     padding: 1rem;
+    transition: all .2s ease-in-out;
 
 }
+
+button:hover {
+	transform: scale(1.1); 
+}
+
 
 #display {
 	display: flex;
@@ -177,14 +178,6 @@ hr {
 
  #display > :first-child {
 	padding-bottom: 1rem;
-}
-
-button {
-	transition: all .2s ease-in-out;
-}
-
-button:hover {
-	transform: scale(1.1); 
 }
 
 
