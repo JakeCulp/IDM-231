@@ -35,7 +35,7 @@ function displayCap() {
 }
 
 function displayAqu() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/benchpress.gif'>Bench</div><div id='displayMess'>You're exercise is the Bench Press! It's helps build up your chest and tricep muscles.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/BenchPress.gif'>Bench</div><div id='displayMess'>You're exercise is the Bench Press! It's helps build up your chest and tricep muscles.</div>";
   document.getElementById('sound_6').play();
   $('#displayMsg').addClass('animated bounceInRight');
 
@@ -113,7 +113,7 @@ function displayCan() {
 }
 
 function displayLeo() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/Pullup.gif'>Pullup</div><div id='displayMess'>You're exercise is Pullups! They help work the lats, biceps, upper back, and forearms.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/pullup.gif'>Pullup</div><div id='displayMess'>You're exercise is Pullups! They help work the lats, biceps, upper back, and forearms.</div>";
   document.getElementById('sound_5').play();
   $('#displayMsg').addClass('animated bounceInRight');
 
@@ -126,7 +126,7 @@ function displayLeo() {
 }
 
 function displayVir() {
-  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/Pushup.gif'>Pushup</div><div id='displayMess'>You're exercise is Pushups! They help strengthen the triceps and work the chest muscles.</div>";
+  document.getElementById("displayMsg").innerHTML = "<div id='display'><img src='./Gifs/pushup.gif'>Pushup</div><div id='displayMess'>You're exercise is Pushups! They help strengthen the triceps and work the chest muscles.</div>";
   document.getElementById('sound_6').play();
   $('#displayMsg').addClass('animated bounceInRight');
 
